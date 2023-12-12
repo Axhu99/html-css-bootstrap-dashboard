@@ -15,11 +15,36 @@
 
 </head>
 <body>
-    <header>
-    
-        <nav class="bg-body-tertiary">
-   
+    <header class="d-flex align-items-center">
+
+        <nav class="container text-center align-items-center">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/mobile-logo.png" id="logo" alt="Bootstrap">
+                    </a>
+                </div>
+                <div class="col-8">
+                    <form>
+                    <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                    </form>
+                </div>
+                <div class="col-2">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
+    
 
     </header>
 
