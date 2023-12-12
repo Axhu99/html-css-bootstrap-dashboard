@@ -1,0 +1,28 @@
+/* ! layout page */
+
+header{
+    height: 80px;
+}
+
+.bot-content{
+    height: calc(100vh - 80px);
+    background-color: red;
+    display: flex;
+}
+
+.sidebar{
+    background-color: aqua;
+    flex-basis: 100px;
+    flex-shrink: 0;
+    max-height: 100%;
+}
+
+main{
+    overflow: auto;
+    flex-grow: 1;
+    background-color: blue;
+}
+
+#logo{
+    max-width: 50px;
+}
