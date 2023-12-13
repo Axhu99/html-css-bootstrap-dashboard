@@ -24,7 +24,7 @@
 main{
     overflow: auto;
     flex-grow: 1;
-    background-color: blue;
+    background-color: #F8F9FA;
 }
 
 /* ! header */
@@ -49,4 +49,10 @@ main{
 .main-header .text-bg-dark {
     --bs-bg-opacity: 0.5;
     background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
-  }
+}
+
+#icon-table{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
