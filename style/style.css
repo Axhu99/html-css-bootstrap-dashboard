@@ -6,15 +6,19 @@ header{
 
 .bot-content{
     height: calc(100vh - 80px);
-    background-color: red;
+    background-color: #051E34;
     display: flex;
 }
 
 .sidebar{
-    background-color: aqua;
-    flex-basis: 100px;
+    background-image: url(../img/sidebar-bg.png);
+    flex-basis: 80px;
     flex-shrink: 0;
     max-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main{
@@ -27,4 +31,10 @@ main{
 
 #logo{
     max-width: 50px;
+}
+
+/* !sidebar */
+
+.sidebar a{
+    color: #fff;
 }
