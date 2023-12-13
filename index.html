@@ -20,17 +20,33 @@
         <!-- NAVBAR con logo e barra di ricerca -->
         <nav class="container-fluid text-center align-items-center">
             <div class="row align-items-center">
-                <div class="col-2"> <!-- Logo -->
-                    <a class="navbar-brand" href="#">
+                <div class="col-2 d-flex justify-content-start"> <!-- Logo -->
+                    <a class="navbar-brand d-block d-md-none" href="#">
                         <img src="img/mobile-logo.png" id="logo" alt="Bootstrap">
                     </a>
+                    <a class="navbar-brand d-none d-md-block" href="#">
+                        <img src="img/logo.svg" class="img-fluide" alt="Bootstrap">
+                    </a>
+
                 </div>
                 <div class="col-8"> <!-- barra di ricerca -->
                     <form>
                     <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                     </form>
                 </div>
-                <div class="col-2"> <!-- link con hidden menu -->
+                <div class="col-2 d-flex justify-content-end gap-3"> <!-- link con hidden menu -->
+                    <div class="d-none d-md-flex gap-3">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-list-ul"></i>
+                        </a>
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </a>
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </a>
+
+                    </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-bell"></i>
