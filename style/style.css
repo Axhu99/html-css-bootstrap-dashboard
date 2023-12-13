@@ -1,6 +1,6 @@
 /* ! layout page */
 
-header{
+.page-header{
     height: 80px;
 }
 
@@ -38,3 +38,15 @@ main{
 .sidebar a{
     color: #fff;
 }
+
+/* ! main */
+
+.main-header{
+    background-color: #1B72E8;
+    color: #fff;
+}
+
+.main-header .text-bg-dark {
+    --bs-bg-opacity: 0.5;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  }

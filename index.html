@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <header class="d-flex align-items-center"> <!-- centratura del contenuto -->
+    <header class="page-header d-flex align-items-center"> <!-- centratura del contenuto -->
 
         <!-- NAVBAR con logo e barra di ricerca -->
         <nav class="container text-center align-items-center">
@@ -80,11 +80,59 @@
                 </ul>
             </section>
         </div>
+
         <main>
-            <section class="spotlight">
+            
+            <!-- header main -->
+            <header class="main-header py-3">
+
+                <div class="container-fluid">
+                    <div class="row align-items-center g-3">
+                        <!-- parte del nuovo studente -->
+                        <div class="col-12 col-md-4 d-flex align-items-center">
+                            <div class="me-2">Nuovo Studente</div>
+                            <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                ...
+                            </div>
+                        </div>
+                        </div>
+                        <!-- titolo con app -->
+                        <div class="col-12 col-md-4 align-items-center">
+                            <div class="row flex-column gy-2">
+                                <div class="col">
+                                    <span>Boolean</span>
+                                    <span class="badge rounded-pill text-bg-dark">Piano blaze</span>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <span class="badge rounded-pill text-bg-dark">3 app</span>
+                                    <span><i class="fa-solid fa-angles-right fa-xs"></i></span>
+                                    <span class="badge rounded-pill text-bg-dark"><i class="fa-solid fa-plus"></i></span>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <!-- counter sul numero di studenti online -->
+                        <div class="col-12 col-md-4 align-items-center">
+                            <div>
+                                studente online negli ultimi 30 minuti
+                            </div>
+                            <div>
+                                125
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </header>
             
 
-            </section>
+        
             <section class="">
 
             </section>
